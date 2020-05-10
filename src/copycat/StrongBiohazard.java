@@ -48,7 +48,7 @@ public class StrongBiohazard extends Actor {
 					this.attack(neutral);
 				}
 			}
-		} else if (isAlive()) {
+		} else if (!isAlive()) {
 			ActorTest.score += 250;
 		}
 	}
